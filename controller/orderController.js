@@ -1,4 +1,4 @@
-const Apifeatures = require("../../utils/Apifeatures");
+const Apifeatures = require("../utils/Apifeatures");
 const Asyn = require("../middileware/Asyn");
 const orderSchema = require("../models/orderSchema")
 const express = require('express')

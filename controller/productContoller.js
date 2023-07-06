@@ -1,7 +1,8 @@
 
 const Product = require('../models/productSchema')
 const express = require('express');
-const Apifeatures = require('../../utils/Apifeatures');
+//const Apifeatures = require('../../utils/Apifeatures');
+const Apifeatures=require('../utils/Apifeatures')
 const Asyn = require('../middileware/Asyn');
 //const productSchema = require('../models/productSchema');
 //const { ObjectId } = require('mongodb');

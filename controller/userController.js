@@ -1,4 +1,4 @@
-const ErrorHander = require("../../utils/errorHander");
+const ErrorHander = require("../utils/errorHander");
 const userSchema = require("../models/userSchema");
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs');
@@ -6,7 +6,7 @@ const crypto = require('crypto')
 const CryptoJS = require('crypto-js')
 // const SendEmail=require('../utils/SendEmail')
 const Asyn = require("../middileware/Asyn");
-const SendEmail = require("../../utils/SendEmail");
+const SendEmail = require("../utils/SendEmail");
 const option = { expires: new Date(Date.now() + process.env.COOKI_EXPIRE * 24 * 60 * 60 * 1000) }
 
 //register user
