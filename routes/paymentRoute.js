@@ -1,5 +1,5 @@
  const express=require('express');
- const { authanticatedUser } = require('../authantication');
+ const { authanticatedUser } = require('../Authantication');
  const { processPayment, sendStripeKey } = require('../controller/paymentController');
 
 
